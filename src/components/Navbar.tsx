@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className="hidden items-center space-x-4 sm:flex">
             <>
               <Link
-                href="/"
+                href="#learn-more"
                 className={buttonVariants({ variant: 'ghost', size: 'sm' })}
               >
                 Learn More

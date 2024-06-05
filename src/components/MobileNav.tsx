@@ -22,7 +22,9 @@ const MobileNav = () => {
         <DropdownMenuContent className="mr-4">
           <DropdownMenuLabel>Menu</DropdownMenuLabel>
           <DropdownMenuSeparator />
-          <DropdownMenuItem>Learn More</DropdownMenuItem>
+          <DropdownMenuItem>
+            <Link href="#learn-more">Learn More</Link>
+          </DropdownMenuItem>
           <DropdownMenuItem>
             Get Started <ArrowRight className="h-5 w-5 ml-1.5" />
           </DropdownMenuItem>
