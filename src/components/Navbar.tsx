@@ -2,6 +2,7 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Link from 'next/link'
 import { buttonVariants } from '@/components/ui/button'
 import { ArrowRight } from 'lucide-react'
+import MobileNav from '@/components/MobileNav'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ const Navbar = () => {
             <span>Immerse</span>
           </Link>
 
-          {/* Mobile Navbar placeholder */}
+          <MobileNav />
 
           <div className="hidden items-center space-x-4 sm:flex">
             <>
