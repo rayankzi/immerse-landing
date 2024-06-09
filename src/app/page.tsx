@@ -86,11 +86,11 @@ export default function Home() {
         <div className="mb-12 px-6 lg:px-8">
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="mt-2 font-bold text-4xl text-gray-900 sm:text-5xl">
-              Start studing{' '}
-              <span className="text-blue-600">distraction free</span> in minutes
+              10x your productivity{' '}
+              <span className="text-blue-600">in minutes</span>
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Locking in to study has never been easier than with Immerse.
+              Studying has been made that much easier with Immerse.
             </p>
           </div>
         </div>
